@@ -4,7 +4,8 @@ import com.sparta.memo.entity.Memo;
 import lombok.Getter;
 
 @Getter
-public class MemoResponseDto {
+public class MemoResponseDto {//DTO (Data Transfer Object) 데이터를 이동할때 사용하는 객체
+    //(Response)응답할 때 사용되는 객체 ResponseDto
     private Long id;
     private String username;
     private String contents;
